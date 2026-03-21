@@ -2,6 +2,6 @@ package greeting
 
 import "fmt"
 
-func Greet(name string, words string) string {
-	return fmt.Sprintf("Hello, %s. %s!", name, words)
+func Greet(name string) string {
+	return fmt.Sprintf("Hello, %s. Nice to mett you✌️", name)
 }
